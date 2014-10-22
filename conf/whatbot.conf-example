@@ -17,18 +17,19 @@
       }
    },
    "database" : {
-      "database" : "/etc/Whatbot/Whatbot.db",
+      "database" : "/etc/whatbot/whatbot.db",
       "handler" : "SQLite"
    },
    "commands" : {
       "admin" : {
+         "enabled" : false,
          "user" : "adminuser"
       },
       "define" : {
-         "sourcelist" : "urbandictionary google wikipedia"
+         "sourcelist" : "wikipedia urbandictionary"
       }
    },
    "log" : {
-      "directory" : "/var/log/Whatbot"
+      "directory" : "/var/log/whatbot"
    }
 }
